@@ -1,0 +1,231 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 40%;
+  margin: 70px auto;
+  background-image: linear-gradient(to right, #ecf8f5, #bde4e4, #ecf8f5);
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.256rem;
+  font-weight: 900;
+  color: #f16d94;
+}
+
+h2 {
+  font-family: "Poiret One", cursive;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  color: #f16d94;
+  padding-bottom: 10px;
+  margin: 0 auto 0 auto;
+}
+
+h3 {
+  font-family: "Delius Unicase", cursive;
+  color: #f16d94;
+  margin: 0 auto;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  background-image: linear-gradient(
+    to right,
+    rgb(137, 206, 230),
+    rgb(253, 251, 251),
+    rgb(137, 206, 230)
+  );
+  padding-top: 150px;
+  position: relative;
+}
+
+#top-container-h2 {
+  margin: 0 auto 80px auto;
+  font-size: 1.5rem;
+}
+
+@keyframes icon-animation {
+  0% {
+    background-color: #e4f9f5;
+    top: 0px;
+  }
+}
+
+.header-icons {
+  width: 10%;
+  filter: drop-shadow(0 0 0.75rem rgb(233, 138, 157));
+  animation-name: icon-animation;
+  animation-duration: 4s;
+  opacity: 0.8;
+}
+
+.header-icons:hover {
+  opacity: 1;
+}
+
+.pro-img {
+  border-radius: 100%;
+  width: 35%;
+  background-color: rgb(253, 251, 251);
+}
+
+.cpp-img {
+  position: absolute;
+  top: 2%;
+  left: 44%;
+  margin-bottom: 30px;
+}
+
+.html-img {
+  position: absolute;
+  right: 13%;
+  top: 35%;
+}
+
+.css-img {
+  position: absolute;
+  right: 10%;
+  top: 70%;
+}
+
+.unity-img {
+  position: absolute;
+  left: 13%;
+  top: 35%;
+}
+
+.c-img {
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+
+.middle-container {
+  margin: 90px 0;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 15%;
+  margin-bottom: 30px;
+}
+
+.para {
+  width: 35%;
+  margin: 16px auto 0 auto;
+}
+
+.description-div {
+  width: 60%;
+  margin: 80px auto;
+  text-align: justify;
+  font-family: "Caveat", cursive;
+  font-size: 1.2rem;
+}
+
+.programming-img {
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+.teach-img {
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+
+.contact-para {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  background: rgb(117, 203, 231);
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(117, 203, 231),
+    rgb(117, 203, 231)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgb(117, 203, 231),
+    rgb(117, 203, 231)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgb(117, 203, 231),
+    rgb(117, 203, 231)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgb(117, 203, 231),
+    rgb(117, 203, 231)
+  );
+  background-image: linear-gradient(
+    to bottom,
+    rgb(117, 203, 231),
+    rgb(117, 203, 231)
+  );
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #31d2ee;
+  background-image: -webkit-linear-gradient(top, #31d2ee, #56bae2);
+  background-image: -moz-linear-gradient(top, #31d2ee, #56bae2);
+  background-image: -ms-linear-gradient(top, #31d2ee, #56bae2);
+  background-image: -o-linear-gradient(top, #31d2ee, #56bae2);
+  background-image: linear-gradient(to bottom, #31d2ee, #56bae2);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  color: #7063e0;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #3c5fac;
+}
+
+.copyright {
+  color: #7063e0;
+  font-size: 0.8rem;
+  padding: 30px 0 0 0;
+  margin-bottom: 0;
+}
